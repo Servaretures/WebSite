@@ -1,0 +1,415 @@
+* {
+  margin: 0; 
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+@media screen and (min-width: 800px){
+ .cls{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+}
+ header{
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+    border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	width:325px;
+	z-index: 10000;
+ }
+@media screen and (min-width: 600px) {
+ .pag1{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-image: url(pag2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: left;
+	min-height:1043px;
+	
+}
+ .priseDiv{
+	display: flex;
+	margin-left:5%;
+	margin-top:3%;
+	
+ }
+ .wwidth{
+	min-width:0px;
+	background-color: rgba(0,0,0,0);
+ }
+ .hheight{
+	height:64px;
+	background-color: rgba(0,0,0,0);
+ }
+ .pag2{
+	background: linear-gradient(#000000, #303030);
+	height:auto;
+	color:white;
+	
+ }
+
+ .MainText{
+	
+	border-radius: 10px;
+	width: 563px;
+    height: 100px;
+    background: #000000;
+	font-size: 70px;
+	font-family: Comic Sans MS;
+    color:white;
+	
+ }
+ .MTB{
+  
+  
+ }
+ .MB{
+  
+  display: flex;	
+  width: 320px;
+  height: 60px;
+  font-family: Comic Sans MS;
+  transition: all 0.5s;
+  background-position: top;
+  background: #FF965B;
+  border-radius: 100px;
+	margin-left:240px;
+	
+	
+ }
+ .MBText{
+	font-size: 48px;
+	position:relative;
+	bottom:5px;
+	height:30px;
+	color:white;
+	
+ }
+ .MainButtonImage{
+  transform: rotate(-40deg);
+  width:75px;
+  height: auto;
+  position:relative;
+  top:3px;
+ }
+  .q{
+	margin-top:20px;
+	margin-left:20px;
+	font-size: 40px;
+	font-family: Comic Sans MS;
+ }
+ .a{
+	margin-top:10px;
+	margin-left:40px;
+	font-size: 26px;
+	font-family: Comic Sans MS;
+ }
+  .BigText{
+	  padding-bottom:20px;
+	margin-left:20px;
+	font-size: 46px;
+	font-family: Comic Sans MS;
+ }
+ .SmallText{
+	overflow: hidden;
+	margin-left:30px;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+ } 
+ .SmallText2{
+	overflow: hidden;
+	margin-left:30px;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	margin-top:10px;
+ } 
+ .PriseImage{
+	min-width:95px;
+	height:96px;
+	background-color:#000000;
+	border-radius: 10px;
+	border: 2px solid #FF965B;
+ }
+  .PriseTextBig{
+	padding-top:10px;
+	font-size: 23px;
+	font-family: Comic Sans MS;
+	text-align: center;
+ }
+ .PriseTextSmall{
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	text-align: right;
+	padding-right:5%;
+	margin-top:13px
+ }
+ .PriseImage2{
+	width:95px;
+	min-height:95px;
+	background: #FF965B;
+	border-radius: 10px;
+	
+ }
+ .Footer{
+	
+	display: flex;
+	font-family: Comic Sans MS;
+	background:#3F3F3F;
+	height:auto;
+	color:white;
+ }
+}
+@media screen and (max-width: 600px) {
+
+ .priseDiv{
+	display: flex;
+	margin-top:5%;
+	flex-shrink: 1;
+	
+ }
+ .pag1{
+	
+	background-image: url(pag2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: left;
+	min-height:500px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+ }
+ .hheight{
+	height:20px;
+	background-color: rgba(0,0,0,0);
+ }
+ .wwidth{
+	width:0px;
+	background-color: rgba(0,0,0,0);
+ }
+ .pag2{
+	background: linear-gradient(#000000, #303030);
+	min-height:auto;
+	color:white;
+ }
+ .MainText{
+	
+	border-radius: 10px;
+	width: 330px;
+    background: #000000;
+	font-size: 40px;
+	font-family: Comic Sans MS;
+    color:white;
+	
+ }
+ .MTB{
+  
+ }
+ .MB{
+  
+  display: flex;	
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 30px;
+  font-family: Comic Sans MS;
+  transition: all 0.5s;
+  background-position: top;
+  background: #FF965B;
+  border-radius: 100px;
+  margin-left:150px;
+	
+ }
+ .MBText{
+	position:relative;
+	bottom:5px;
+	height:30px;
+	font-size: 24px;
+	color:white;
+ }
+ .MainButtonImage{
+  transform: rotate(-40deg);
+  width:45px;
+  height: auto;
+  position:relative;
+  top:3px;
+ }
+ .q{
+	margin-top:20px;
+	margin-left:20px;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+ }
+ .a{
+	margin-top:10px;
+	margin-left:40px;
+	font-size: 12px;
+	font-family: Comic Sans MS;
+ }
+  .BigText{
+	
+	padding-bottom:20px;
+	margin-left:20px;
+	font-size: 23px;
+	font-family: Comic Sans MS;
+ }
+ .SmallText{
+	overflow: hidden;
+	margin-left:30px;
+	font-size: 10px;
+	font-family: Comic Sans MS;
+ } 
+ .SmallText2{
+	overflow: hidden;
+	margin-left:30px;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+ } 
+ .PriseTextBig{
+	padding-top:10px;
+	font-size: 12px;
+	font-family: Comic Sans MS;
+	text-align: center;
+ }
+ .PriseTextSmall{
+	font-size: 10px;
+	font-family: Comic Sans MS;
+	text-align: right;
+	padding-right:5%;
+	margin-top:13px
+ }
+ 
+ .PriseImage{
+	min-width:63px;
+	height:63.67px;
+	background-color:#000000;
+	border-radius: 10px;
+	border: 2px solid #FF965B;
+ }
+ .PriseImage2{
+	min-width:63px;
+	height:67.67px;
+	background: #FF965B;
+	border-radius: 10px;
+ }
+ .Footer{
+	
+	display: block;
+	font-family: Comic Sans MS;
+	background:#3F3F3F;
+	height:auto;
+	color:white;
+ }
+}
+
+
+.AutoImage{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.AutoImage2{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+	transform:rotate(-40deg);
+}
+.navigation {
+    display: flex;
+}
+.button{
+    display: flex;
+    border-radius: 100px;
+    width: 90.85px;
+    height: 32px;
+    background: #FF965B;
+
+    text-decoration: 0;
+    margin: 0 17px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+    transition: all 0.5s;
+	font-family: Comic Sans MS;
+}
+a{
+	text-decoration: none;
+}
+.link {
+  text-decoration: 0;
+  font-size: 1.2rem;
+  font-family: Comic Sans MS;
+  font-weight: 600;
+  margin: 5px;
+  color:white;
+}
+.button:hover {
+  background: #FC6917;
+}
+.container 
+{
+  display: flex;
+  margin-top:0%;
+  margin-left:1%;
+}
+.parent{
+	
+}
+.MB:hover {
+  background: #FC6917;
+}
+.AboutUs{
+	color:white;
+	font-family: Comic Sans MS;
+	padding-bottom:20px;
+	padding-top:10px;
+	background-color: rgba(0,0,0,1);
+}
+.pageDelitel{
+	background-color:#FF965B;
+	height: 3px;
+}
+
+
+.PriseText{
+	width:550px;
+	background-color:#000000;
+	border-radius: 10px;
+	border: 2px solid #FF965B;
+
+	
+}
+
+.PriceButtom:hover {
+  background: #FC6917;
+}
+.pag3{
+	background: linear-gradient(#303030, #000000);
+	min-height:auto;
+	color:white;
+}
+
+.StartFooter{
+	background: linear-gradient(#000000, #3F3F3F);
+	min-height:50px;
+	color:white;
+}
+.FooterImages{
+	display: flex;
+	padding-top:10px;
+}
+.ImageMargin{
+  margin-left: 12px;
+}
